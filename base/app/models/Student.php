@@ -29,6 +29,8 @@ class Student extends BaseModel{
         $this->setQuery($sql);
         return $this->execute([ $name, $year_of_birth, $phone_number, $id]);
     }
+    
 }
+
 
 ?>
